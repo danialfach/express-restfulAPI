@@ -1,5 +1,5 @@
 import Express from "express";
-import login from "../auth/users/user-login";
+import login from "../../auth/users/user-login";
 
 const loginAuth = Express.Router();
 

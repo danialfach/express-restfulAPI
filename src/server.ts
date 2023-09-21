@@ -1,7 +1,7 @@
 import express from "express";
 import userRoutes from "./routes/users";
-import register from "./routes/register";
-import login from "./routes/login";
+import register from "./routes/auth/register";
+import login from "./routes/auth/login";
 import logs from "./middleware/logs";
 import validation from "./middleware/validation";
 
