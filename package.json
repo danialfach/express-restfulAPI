@@ -1,17 +1,20 @@
 {
   "name": "express-2",
   "version": "1.0.0",
-  "main": "app.ts",
+  "main": "server.ts",
   "scripts": {
-    "start": "ts-node src/app.ts"
+    "start": "nodemon src/server.ts"
   },
   "author": "Danial Fachrudin",
   "license": "MIT",
   "dependencies": {
     "@prisma/client": "^5.3.1",
     "@types/bcrypt": "^5.0.0",
+    "@types/jsonwebtoken": "^9.0.3",
     "bcrypt": "^5.1.1",
     "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "nodemon": "^3.0.1",
     "prisma": "^5.3.1",
     "ts-node": "^10.9.1"
   },
