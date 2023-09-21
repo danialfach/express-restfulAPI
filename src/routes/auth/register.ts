@@ -1,5 +1,5 @@
 import  Express  from "express";
-import userRegister from "../../auth/users/user-register";
+import userRegister from "../../auth/register";
 
 const registerAuth = Express.Router();
 
