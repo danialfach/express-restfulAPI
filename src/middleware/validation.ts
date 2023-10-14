@@ -1,11 +1,6 @@
 import { NextFunction, Request, Response } from "express";
 import jwt from "jsonwebtoken";
-
-interface UserData {
-    id: string;
-    name: string;
-    address: string;
-}
+import { UserData } from "../config/interface/UserData";
 
 interface ValidationRequest extends Request {
     userData: UserData;

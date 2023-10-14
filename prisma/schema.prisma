@@ -3,14 +3,12 @@ generator client {
 }
 
 datasource db {
-  provider = "mysql"
+  provider = "postgresql"
   url      = env("DATABASE_URL")
 }
 
 model users {
-  id       Int     @id @default(autoincrement())
-  name     String  @default("") @db.VarChar(255)
-  email    String  @unique(map: "email") @db.VarChar(255)
-  address  String? @db.VarChar(255)
-  password String? @db.VarChar(255)
+  id    String @id @db.Uuid
+  nama  String @db.VarChar
+  email String @db.VarChar
 }
