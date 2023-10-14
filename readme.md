@@ -15,6 +15,7 @@ Dengan menggunakan Express.js untuk mengembangkan proyek RESTful API, Anda akan 
 ## Technologies
 
 - Prisma ORM
+- PostgreSQL
 - Bcrypt
 - JWT (Json Web Token)
 - TypeScript
